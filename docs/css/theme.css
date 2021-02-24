@@ -1,4 +1,39 @@
 em {
-  color: blue;
+  color: #869ee6;
   font-weight: bold;
+}
+
+span {
+  color: #36393e;
+}
+
+p {
+  color: #36393e;
+}
+
+i {
+  font-weight: bold;
+  color: #666666;
+}
+
+body {
+  background-color: #ebf2f8;
+  color: #2f4665;
+}
+
+h1,
+h2,
+h3 {
+  padding: 3px 3px 0px 10px;
+  /* padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 10px; */
+  background-color: #314d72;
+  color: #e1e6f1;
+}
+
+h1 > span,
+h2 > span,
+h3 > span {
+  color: #e1e6f1;
 }

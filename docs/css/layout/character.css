@@ -1,3 +1,23 @@
+p.skill_name {
+  font-weight: bold;
+
+  position: relative;
+  display: inline-block;
+  padding-left: 12px;
+}
+
+p.skill_name::before {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-top: 2px solid #85e9f7;
+  border-right: 2px solid #85e9f7;
+  transform: rotate(45deg);
+  top: 5px;
+  left: 0;
+}
+
 .status_record {
   width: 220px;
   display: flex;
@@ -8,6 +28,7 @@
 
 .status_name {
   display: inline-block;
+  font-weight: 750;
   width: 120px;
 }
 
@@ -19,6 +40,7 @@
 
 .profile_name {
   display: inline-block;
+  font-weight: 750;
   width: 95px;
 }
 
@@ -33,7 +55,7 @@
   margin-bottom: 15px;
 }
 
-#terrain_suitabillity > * > tr > td {
-  width: 40px;
-  text-align: center;
+.skill_header {
+  display: inline-block;
+  width: 125px;
 }
