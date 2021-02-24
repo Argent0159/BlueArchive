@@ -11,3 +11,8 @@ h3 + p,
 h3 + img {
   margin-left: 15px;
 }
+
+.record {
+    width: 250px;
+    margin: 4px 4px 0px 0px;
+}
