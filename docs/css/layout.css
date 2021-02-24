@@ -1,0 +1,39 @@
+.status_record {
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.status_name {
+  display: inline-block;
+  width: 120px;
+}
+
+.status_box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 540px;
+}
+
+.profile_name {
+  display: inline-block;
+  width: 95px;
+}
+
+.profile_value {
+  display: inline-block;
+  width: 250px;
+}
+
+.character_picture {
+  height: 700px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#terrain_suitabillity > * > tr > td {
+  width: 40px;
+  text-align: center;
+}
